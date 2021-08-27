@@ -1,0 +1,26 @@
+{
+  "name": "ts-api",
+  "version": "1.0.0",
+  "description": "basic typescript node express api",
+  "main": "/dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe300/ts-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe300/ts-api/issues"
+  },
+  "homepage": "https://github.com/felipe300/ts-api#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.2"
+  }
+}
